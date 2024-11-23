@@ -1,5 +1,5 @@
 ```lua
-local success = exports["lfs_lockpick"]:lockpick(Config.Lockpick)
+local success = exports["lfs_lockpick"]:lockpick('lockpick')
 if success then
   print("success")
 else
